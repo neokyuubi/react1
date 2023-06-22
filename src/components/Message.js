@@ -11,7 +11,7 @@ class Message extends Component
 
     render()
     {
-        return <h1>this is a class component Message from {this.dem} {this.myCal()}</h1>;
+        return <h1>{this.props.messageMe} | {this.dem} {this.myCal()}</h1>;
     };
 }
 

@@ -1,11 +1,13 @@
 import './App.css';
+import Message from './components/Message';
 import Profile from './components/Profile';
 function App() {
   return (
     <div className="App">
-      <Profile name="neokyuubi">
+      {/* <Profile name="neokyuubi">
         <b>Super</b>
-      </Profile>
+      </Profile> */}
+      <Message messageMe="hellooooooo" />
     </div>
   );
 }

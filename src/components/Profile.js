@@ -9,5 +9,3 @@ function Profile(props)
 }
 
 export default Profile;
-
-// https://www.youtube.com/watch?v=o3biU6YIhjI&list=PLSsAz5wf2lkK_ekd0J__44KG6QoXetZza&index=11
