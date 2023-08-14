@@ -1,4 +1,5 @@
 import './App.css';
+import ClassEvent from './components/ClassEvent';
 import Counter from './components/Counter';
 import FunctionEvent from './components/FunctionEvent';
 import Message from './components/Message';
@@ -12,6 +13,7 @@ function App() {
       <Message messageMe="hellooooooo" />
       <Counter />
       <FunctionEvent name="Neo" />
+      <ClassEvent name="Kyuubi" />
     </div>
   );
 }
